@@ -11,9 +11,9 @@ Web site have to be disaled :
 
 ### Configure a PHP router in your project
 [default path repo]
-    /views
-    .htaccess
-    index.php
+    -/views
+    -.htaccess
+    -index.php
 
 Copy in default path of your project directory
 - index.php
