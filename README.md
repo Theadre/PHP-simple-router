@@ -42,7 +42,7 @@ RewriteRule ^(.+)$ index.php [QSA,L]
 
 ### Configure your apache vhost
 Copy the content of vhost.conf file in your vhost config file in `/etc/apache2/sites-availables/example.com.conf`
--vhost.conf
+- vhost.conf
 ```
 <VirtualHost *:80>
     ServerAdmin admin@gmail.com
