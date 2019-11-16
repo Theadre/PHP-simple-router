@@ -20,5 +20,6 @@ Copy the content of vhost.conf file in your vhost config file in `/etc/apache2/s
 ### Then
 ```
 a2ensite example.conf
+
 service apache2 restart
 ```
