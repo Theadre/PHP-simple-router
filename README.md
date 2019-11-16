@@ -4,7 +4,7 @@
 
 Web site have to be disaled :
 ```
-a2dissite example.com
+# a2dissite example.com
 ```
 
 # GETTING STARTED
@@ -42,6 +42,7 @@ RewriteRule ^(.+)$ index.php [QSA,L]
 
 ### Configure your apache vhost
 Copy the content of vhost.conf file in your vhost config file in `/etc/apache2/sites-availables/example.com.conf`
+-vhost.conf
 ```
 <VirtualHost *:80>
     ServerAdmin admin@gmail.com
@@ -67,7 +68,7 @@ Copy the content of vhost.conf file in your vhost config file in `/etc/apache2/s
 
 ### Then
 ```
-a2ensite example.conf
+# a2ensite example.conf
 
-service apache2 restart
+# service apache2 restart
 ```
