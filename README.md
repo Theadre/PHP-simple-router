@@ -72,4 +72,6 @@ Copy the content of vhost.conf file in your vhost config file in `/etc/apache2/s
 
 # service apache2 restart
 ```
-In your HTML `<a></a>` tag, use href="/" or href="/about"
+
+## How to use in HTML file
+In `<a></a>` tag, use href="/" or href="/about"
