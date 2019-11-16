@@ -74,4 +74,4 @@ Copy the content of vhost.conf file in your vhost config file in `/etc/apache2/s
 ```
 
 ## How to use in HTML file
-In `<a></a>` tag, use `href="/"` or `href="/about"`
+In `<a></a>` tag, use `href="/"`, `href="/about"`, etc.
